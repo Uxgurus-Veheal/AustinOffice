@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
+@import "../../Assets/css/variables.scss";
+
+.footer{
+    border-top: solid 1px $light2;
+    padding: 2rem 0 !important;
+    &__text{
+        @include font(Nunito, 15px, 600);
+        line-height: normal;
+        text-align: center;
+        color: $dark;
+    }
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
+@import "../../Assets/css/variables.scss";
+
+.aurtinowners{
+    background-color:$lightwhite;
+    &__cont{
+        width: 75%;
+        margin: 50px auto 0;
+        padding: 40px 0 90px;
+    }
+    &__listcont{
+        background-color:white;
+        padding: 90px;
+        .mb-5{
+            margin-bottom: 3.5em !important;
+        }
+        .col-lg-7{
+            padding-right:0;
+        }
+        .col-md-7{
+            padding-right:0;
+        }
+    }
+    &__heading{
+        @include font(Poppins, 39px, bold);
+        line-height: 1;
+        color: $blacklight;
+        margin: 0 0 30px;
+    }
+    &__subheading{
+        @include font(Poppins, 28px, bold);
+        color: $blacklight;
+    }
+    &__para{
+        @include font(Nunito, 15px, normal);
+        line-height: 1.6;
+        color: $lightblack;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .aurtinowners{
+        &__cont{
+            width: 85%;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .aurtinowners{
+        &__subheading{
+            font-size: 20px;
+        }
+        &__para{
+            font-size: 14px;
+        }
+        &__listcont{
+            padding: 40px;
+        }
+    }
+}
+
+@media (max-width: 855px) {
+
+    .aurtinowners{
+        &__cont{
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .aurtinowners{
+        &__cont{
+            margin: 25px auto 0;
+            padding: 0 0 3rem;
+        }
+        &__heading{
+            margin: 0;
+        }
+        &__listcont{
+            .col-md-4{
+                float: left;
+                width: 40%;
+            }
+            .col-md-1{
+                display: none;
+            }
+            .col-md-7{
+                float: left;
+                width: 60%;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+    .hide{
+        &--mobile{
+            display: none;
+        }
+    }
+    
+    .aurtinowners__heading{
+        font-size: 30px;
+    }
+
+    .aurtinowners{
+        &__listcont{
+            .col-md-4 {
+                float: left;
+                width: 100%;
+            }
+            .col-md-7 {
+                float: left;
+                width: 100%;
+            }
+        }
+    }
+
+    .aurtinowners{
+        &__heading{
+            font-size: 30px;
+        }
+    }
+
+    .aurtinowners{
+        &__listcont{
+            .col-md-4{
+                padding: 0;
+                margin-top: 20px;
+            }
+        }
+    }
+}

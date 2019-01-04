@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
+@import "../../Assets/css/variables.scss";
+
+.mbl_menu {
+    float: right;
+}
+
+.menuContainer {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.menuImg{
+    width: 10%;
+    float: right;
+    position: absolute;
+    right: 20px;
+}
+
+.menuShow {
+    display: none;
+}
+
+.menuHide {
+    display: none;
+}
+
+.box{
+    &--state{
+        background: $butterscotch!important;
+    }
+    &--job{
+        background: $darkskyblue!important;
+    }
+    &--city{
+        background: $dark!important;
+    }
+}
+
+.banner {
+    z-index: 0;
+    width:100%;
+    position: relative;
+    &__image{
+        width: 100%; 
+    }
+    &__content{
+        width: 75%;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        margin-left: -37.5%;
+        margin-top: 40px;
+    }
+    &__topcontent{
+        width: 85%;
+        margin: 0 auto;
+    }
+    &__botcontent{
+        width: 100%;
+        float: left;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-gap: 0;
+        grid-row-gap: 0;
+    }
+    &__logonav{
+        width: 100%;
+        float: left;
+    }
+    &__logocont{
+        width: 20%;
+        float: left;
+        background: $darkishBlue;
+        padding: 13px 0;
+    }
+    &__logolink {
+        width: 75%;
+        margin: 0 12.5%;
+        background: url(../../Assets/images/logo.png) no-repeat center center transparent;
+        background-size: 100%;
+        text-indent: -99999em;
+        float: left;
+        height: 54px;
+    }
+    &__nav{
+        width: 80%;
+        float: left;
+        background: $white;
+    }
+    &__listcont{
+        margin: 0 5% 0 0;
+        padding: 0;
+        width: 95%;
+        float: right;
+    }
+    &__list{
+        list-style: none;
+        display: inline-block;
+        float: right;
+        margin-left: 4%;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    &__link{
+        @include font(Poppins, 13px, 600);
+        color: $black;
+        text-transform: uppercase;
+        &:hover{
+            color: $darkishBlue;
+        }
+        &:active{
+            color: $darkishBlue;
+        }
+    }
+    &__message{
+        float: left;
+        color: $white;
+        margin: 10vw 0 8vw;
+        width: 390px;
+    }
+    &__msgcmpy{
+        @include font(Poppins, 22px, 510);
+        line-height: 1.18;
+    }
+    &__msgdesc{
+        @include font(Poppins, 60px, bold);
+        line-height: 1;
+        margin: 10px 0 20px;
+    }
+    &__msglocation{
+        @include font(Nunito, 18px, normal);
+        line-height: 1.44;
+    }
+    &__botbox{
+        background: $salmon;
+        float: left;
+        color: $white;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    &__botheading{
+        @include font(Poppins, 39px, bold);
+        line-height: 1.54;
+        margin: 0 40px;
+    }
+    &__botmsg{
+        @include font(Poppins, 20px, 510);
+        line-height: 1.18;
+        color: $white;
+        margin: 10px 40px;
+        flex-grow: 1;
+    }
+    &__botdesc{
+        @include font(Nunito, 15px, normal);
+        line-height: 1.73;
+        color: $white;
+        margin: 0 40px;
+    }
+}
+
+.show{
+    &--mobilegrid{
+        display: none;
+    }
+    &--mobile{
+        display: none!important;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .banner{
+        &__botbox{
+            padding: 15px 0;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .banner{
+        &__content{
+            width: 85%;
+            margin-left: -42.5%;
+        }
+        &__botmsg{
+            margin: 10px 20px;
+        }
+        &__botheading{
+            margin: 0 20px;
+        }
+        &__botdesc{
+            margin: 0 20px;
+        }
+        &__botbox{
+            padding: 15px 0;
+        }
+        &__message{
+            margin: 7vw 0 6vw;
+        }
+        &__list{
+            margin-left: 5%;
+        }
+        &__link{
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 1070px){
+
+    .banner{
+        &__message{
+            margin: 5vw 0 4vw;
+        }
+        &__botbox{
+            padding : 10px 0;
+        }
+        &__list{
+            margin-left: 4%;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+
+    .banner{
+        &__list{
+            margin-left: 1.5vw;
+        }
+        &__content{
+            margin-top: 3vw;
+        }
+        &__msgcmpy{
+            font-size: 20px;
+        }
+        &__link{
+            font-size: 12px;
+        }
+        &__msglocation{
+            margin-top: 15px;
+            line-height: 1;
+        }
+    }
+}
+
+@media (max-width: 932px) {
+
+    .banner{
+        &__botheading{
+            margin: 0 15px;
+            font-size: 30px;
+        }
+        &__botmsg{
+            margin: 10px 15px;
+            font-size: 18px;
+        }
+        &__botdesc{
+            margin: 0 15px;
+            font-size: 12px;
+        }
+        &__message{
+            margin: 6vw 0 6vw;
+            width: 300px;
+        }
+        &__msgdesc{
+            font-size: 40px;
+        }
+        &__topcontent{
+            width: 95%;
+        }
+    }
+}
+
+@media (max-width: 855px) {
+
+    .banner{
+        &__content{
+            width: 90%;
+            margin-left: -45%;
+        }
+        &__botheading{
+            margin: 0 10px;
+            font-size: 24px;
+        }
+        &__botmsg{
+            margin: 5px 10px;
+            font-size: 16px;
+        }
+        &__botdesc{
+            margin: 0 10px;
+            font-size: 12px;
+        }
+        &__msglocation{
+            margin-top: 10px;
+        }
+        &__msgdesc {
+            font-size: 38px;
+            margin: 10px 0 10px;
+        }
+        &__message{
+            margin: 5vw 0 5vw;
+            width: 250px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .menuShow{
+        display: block!important;
+    }
+
+    .banner__nav ul li:first-child{
+        background-color: #c4dffb;
+    }
+    
+    .banner__nav ul li:nth-child(3){
+        background-color: #c4dffb;
+    }
+
+    .banner{
+        &__list {
+            display: block;
+            float: none;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #c1bfbf;
+        }
+        &__listcont {
+            margin: 0;
+            width: 100%;
+        }
+        &__nav{
+            width: 100%;
+            position: absolute;
+            top: 25%;
+            z-index: 1;
+            -webkit-animation: slide-left .3s ease-out;
+            -moz-animation: slide-left .3s ease-out;
+            animation: slide-left .3s ease-out;
+            @-webkit-keyframes slide-left {
+                0% { opacity: 0; -webkit-transform: translateY(-100%); }   
+            100% { opacity: 1; -webkit-transform: translateY(0); }
+            }
+            @-moz-keyframes slide-left {
+                0% { opacity: 0; -moz-transform: translateY(-100%); }   
+                100% { opacity: 1; -moz-transform: translateY(0); }
+            }
+            @keyframes slide-left {
+                0% { opacity: 0; -webkit-transform: translateY(-100%); }   
+                100% { opacity: 1; -webkit-transform: translateY(0); }
+            }
+        }
+        &__botcontent{
+            margin-top: 8%;
+        }
+        &__botheading{
+            font-size: 20px;
+        }
+        &__botmsg{
+            font-size: 14px;
+        }
+        &__message{
+            width: 100%;
+            margin: 3vw 0 3vw;
+        }
+        &__msgcmpy{
+            font-size: 18px;
+        }
+        &__msgdesc{
+            font-size: 30px;
+        }
+        &__msglocation{
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+    .mbl_menuIcon{
+        float: right;
+        height: 30px;
+        width:30px;
+    }
+    .mbl_menu{
+        width: 100%;
+        float: none;
+    }
+
+    .banner{
+        &__logolink{
+            height: 30px;
+        }
+        &__list{
+            display: block;
+            float: none;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #c1bfbf;
+            // &:last-child{
+            //        border-bottom:0;
+            //}
+        }
+        &__nav{
+            width: 100%;
+            position: absolute;
+            top: 25%;
+            z-index: 1;
+        }
+        &__listcont{
+            margin: 0;
+            width: 100%;
+        }
+        &__botcontent{
+            grid-template-columns: 50% 50%
+        }
+        &__logocont{
+            padding: 10px 0;
+            width: 30%;
+        }
+    }
+
+    .hide{
+        &--mobile{
+            display: none;
+        }
+    }
+
+    .show{
+        &--mobilegrid{
+            display: grid;
+        }
+        &--mobile{
+            display: block!important;
+        }
+    }
+    .pos{
+        &--banner{
+            margin-top: -4px;
+            margin-bottom: 30px;
+        }
+    }
+}

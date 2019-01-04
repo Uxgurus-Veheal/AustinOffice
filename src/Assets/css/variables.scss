@@ -1,0 +1,47 @@
+$darkishBlue : #003681;
+$white : #ffffff;
+$black : #000000;
+$salmon : #ff6666;
+$butterscotch : #ffc038;
+$darkskyblue : #31b2e0;
+$dark : #34304c;
+$lightblue : #31b2e0;
+$greenblue : #003681;
+$blue : #001834;
+$blacklight: #222222;
+$greenblue : #00bb96;
+$lightred : #9e6543;
+$blueberry : #5a3588;
+$azul : #3375ea;
+$yelloworange : #f6a800;
+$barney : #a627d7;
+$dusk : #43567a;
+$medpink : #ee5a9f;
+$orangish : #ff7c39;
+$coral: #f24c4c;
+$warmpurple : #a32a97;
+$purplishgrey : #565557;
+$grey : #dadada;
+$lightwhite : #fafafa;
+$lightblack : #232323;
+$white2: #f2faf7;
+$white3: #f0f0f0;
+$green: #36b142;
+$dark2: #001834;
+$dark3: #3d5066;
+$dark4: #4f4f4f;
+$light1: #a3b6cc;
+$light2: #c1bfbf;
+
+@mixin width75marauto() {
+    width: 75%;
+    margin: 0 auto;
+}
+@mixin font($family, $size, $bold) {
+    font-style: normal;
+    letter-spacing: normal;
+    font-stretch: normal;
+    font-family: $family;
+    font-size: $size;
+    font-weight: $bold;
+}

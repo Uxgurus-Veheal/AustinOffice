@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
+@import "../../Assets/css/variables.scss";
+
+.austinlnscp{
+    &__cont{
+        @include width75marauto();
+    }
+    &__heading{
+        @include font(Poppins, 39px, bold);
+        line-height: 1;
+        display: inline-block;
+    }
+    &__circle{
+        height: 26px;
+        width: 26px;
+        background-color: $green;
+        border-radius: 50%;
+        display: inline-block;
+        @include font(Poppins, 14px, 600);
+        line-height: normal;
+        text-align: center;
+        color:white;
+        padding-top:3px;
+        margin-right: 10px;
+        float: left;
+    }
+    &__listheading{
+        @include font(Nunito, 15px, normal);
+        line-height: normal;
+        color: $lightblack;
+        padding-top: 4px;
+    }
+    &__list{
+        margin-bottom:20px;
+    }
+    &__headingbold{
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .austinlnscp{
+        &__cont{
+            width: 85%;
+        }
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .austinlnscp{
+        &__heading{
+            padding: 20px 0;
+        }
+        &__listheading{
+            font-size: 13px;
+        }
+    }
+
+}
+
+@media (max-width: 855px) {
+
+    .austinlnscp{
+        &__cont{
+            width: 90%;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .austinlnscp{
+        &__heading{
+            margin: 1rem 0!important;
+        }
+        &__cont{
+            margin-bottom: 0!important;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .austinlnscp{
+        &__heading{
+            font-size: 30px;
+        }
+    }
+
+    .austinlnscp__heading{
+        font-size: 30px;
+    }
+}

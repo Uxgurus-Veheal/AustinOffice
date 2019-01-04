@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
+@import "../../Assets/css/variables.scss";
+
+.austinofcmrkt{
+    border-top: solid 1px $grey;
+    &__cont{
+        @include width75marauto();
+    }
+    &__heading{
+        @include font(Poppins, 39px, bold);
+        line-height: 1;
+        color: $blacklight;
+        margin: 80px 0 120px 0;
+    }
+    &__list{
+        background-color: $white2;
+        padding: 12px 0 12px 25px;
+        width: 80%;
+        .row{
+            margin: 0 !important;
+        }
+    }
+    &__arrowimgcont{
+        width: 40px;
+        height: 40px;
+        margin-top: 3px;
+    }
+    &__arrowimg{
+        width:100%;
+        height: 100%;
+    }
+    &__desc{
+        @include font(Nunito, 15px, normal);
+        line-height: normal;
+        color: $lightblack;
+    }
+    &__descdetail{
+        @include font(Poppins, 18px, 600);
+        line-height: normal;
+        color: $blacklight;
+    }
+    &__rtheading{
+        font-family: Poppins;
+        font-size: 52px;
+        font-weight: bold;
+        @include font(Poppins, 52px, bold);
+        line-height: 1.15;
+        color: $darkishBlue;
+    }
+    &__para{
+        width: 75%;
+        @include font(Poppins, 18px, 400);
+        line-height: 1.44;
+        color: $blacklight;
+        margin: 30px 0  45px 0px;
+    }
+    &__src{
+        @include font(Nunito, 15px, normal);
+        line-height: normal;
+        color: $lightblack;
+        margin-top: 40px;
+    }
+    &__srcbold{
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 1200px) {
+    .austinofcmrkt{
+        &__cont{
+            width: 85%;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .austinofcmrkt{
+        &__heading{
+            margin: 60px 0 60px 0;
+        }
+        &__desc{
+            font-size: 14px;
+        }
+        &__rtheading{
+            font-size: 36px;
+        }
+        &__para{
+            width: 100%;
+            font-size: 16px;
+        }
+        &__descdetail{
+            font-size: 16px;
+        }
+        &__list{
+            padding: 10px 0 10px 10px;
+        }
+        &__src{
+            font-size: 13px;
+        }
+    }
+}
+
+@media (max-width: 855px) {
+    .austinofcmrkt{
+        &__cont{
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .austinofcmrkt{
+        &__heading{
+            margin: 30px 0;
+        }
+        &__list{
+            width: 100%;
+        }
+    }
+
+    .austinofcmrkt{
+        &__src{
+            margin: 30px 0;
+        }
+        &__para{
+            margin: 20px 0  25px 0px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .austinofcmrkt{
+        &__list{
+            padding: 12px 0 12px 25px;
+            width: 100%;
+        }
+    }
+
+    .austinofcmrkt__heading, .austinofcmrkt__rtheading {
+        font-size: 30px;
+    }
+}

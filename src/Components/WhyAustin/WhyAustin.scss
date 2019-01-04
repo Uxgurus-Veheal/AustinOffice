@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
+@import "../../Assets/css/variables.scss";
+
+.whyaustin{
+    @include width75marauto();
+    &__list{
+        .col-md-8{
+            padding-right:0 ;
+        }
+    }
+    &__heading{
+        margin-bottom: 60px;
+        @include font(Poppins, 39px, 600);
+        line-height: 1;
+        color: $blacklight;
+    }
+    &__images{
+        width: 100%;
+    }
+    &__imgcont{
+        width: 80px;
+    }
+    &__cont{
+        padding: 60px 0 80px;
+    }
+    &__img{
+        width: 100%;
+    }
+    &__list{
+        margin-bottom: 40px;
+    }
+    &__listheading{
+        @include font(Poppins, 22px, bold);
+        line-height: 1.18;
+        color: $blacklight;
+        margin-bottom: 10px;
+    }
+    &__listdesc{
+        @include font(Nunito, 15px, normal);
+        line-height: 1.6;
+        color: $lightblack;
+    }
+    &--last{
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .whyaustin{
+        width: 85%;
+        &__listheading{
+            font-size: 20px;
+        }
+        &__list{
+            margin-bottom: 35px;
+        }
+    }
+}
+
+@media (max-width: 1070px){
+
+    .whyaustin{
+        &__listheading{
+            font-size: 18px;
+        }
+        &__listdesc{
+            font-size: 13px;
+        }
+        &__list{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+
+    .hide{
+        &--tablnscp{
+            display: none;
+        }
+    }
+
+    .whyaustin{
+        &__imgcont{
+            width: 60px;
+        }
+        &__listheading{
+            font-size: 16px;
+        }
+        &__list{
+            margin-bottom: 20px;
+        }
+        &__heading{
+            margin-bottom: 40px;
+        }
+        &__cont{
+            padding: 40px 0;
+        }
+    }
+}
+
+@media (max-width: 932px) {
+
+    .whyaustin{
+        &__listheading{
+            margin-bottom: 5px;
+            font-size: 15px;
+        }
+        &__list{
+            margin-bottom: 15px;
+        }
+        &__listdesc{
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 855px) {
+
+    .whyaustin{
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .whyaustin{
+        &__list{
+            &.col-md-8{
+                float: left;
+                width: 80%;
+            }
+        }
+        &__imgcont{
+            margin-left: 15px;
+        }
+        &__img{
+            margin-bottom: 20px;
+        }
+        &__listheading{
+            margin-top: 12px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+    .whyaustin__heading {
+        font-size: 30px;
+    }
+
+    .whyaustin{
+        &__list{
+            .col-md-8{
+                width: 70%;
+            }
+        }
+    }
+}

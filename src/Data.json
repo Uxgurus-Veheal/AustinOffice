@@ -1,0 +1,248 @@
+{
+    "BlueSection1" :{
+        "BlueSectionP1":"Over 150 people move to Austin, TX every day, making it the fastest growing city in the US.",
+        "BlueSectionP2":"Located in Central Texas Hill Country, Austin, TX is a unique reservoir of arts, education, and eclectic people."
+    },
+    "ArtCulture":{
+        "heading":"ART & CULTURE",
+        "ArtCultureP1":"Referred to as the Live Music Capital of the World, it’s not hard to walk down any given street on any given night of the week and see a great band playing.",
+        "ArtCultureP2":"Austin also hosts some of the country’s foremost festivals, including SXSW, ACL, and Fun Fun Fun Fest, all of which contribute to the growing amount of talent relocating to the city."
+    },
+    "Education":{
+        "heading":"EDUCATION",
+        "EduP1":"At the center of Austin is the University of Texas, which now enrolls over 50,000 students. Saturdays in fall are electric events marked by huge crowds dressed in burnt orange.",
+        "EduP2":"The School world renowned, topping national rankings in computer, science, accounting, and engineering. Austin is also a unique culinary experience."
+    },
+    "Tech":{
+        "heading":"TECH",
+        "TechP1":"Its business climate enjoys the open policies and low taxes that the rest of Texas has, but it also includes the innovative and hustling nature of the slew of technology startups moving here.",
+        "TechP2":"‘Silicon Hills’ is quickly becoming a hotbed for entrepreneurial talent."
+    },
+    "AustinOfficeMarket":{
+        "heading":"Austin Office Market",
+        "heading2":"Down with vacancy and up with absorption in Q3 2018",
+        "Para":"Absorption levels in the Austin Office Market rebounded in Q3 2018 from a relatively flat first half of the year, cresting 575,000 sq. ft of positive space demand during the quarter. With vacancy steadily floating around the 10.0% mark and asking rates near historic highs, developers continue to read positively into Austin’s position during the late expansion stage of the market cycle."
+    },
+    "AustinOfficeOwners":{
+        "heading":"Austin's Largest Office Owners",
+        "SideStat":{
+            "Block1":{
+                "variable":"Vacancy",
+                "value":"10.2%"
+            },
+            "Block2":{
+                "variable":"Under Construction",
+                "value":"4,445,358 SF"
+            },
+            "Block3":{
+                "variable":"Deliveries",
+                "value":"580,487 SF"
+            },
+            "Block4":{
+                "variable":"Net Absorption",
+                "value":"575,927 SF"
+            },
+            "Block5":{
+                "variable":"Avg. Asking Rate",
+                "value":"$35.49 PSF"
+            }
+        },
+        "AustinOfficeOwnersDiv":[
+            {
+                "heading":"1  -  World Class Property Company",
+                "Para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
+            },
+            {
+                "heading":"2  -  TIER REIT",
+                "Para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "   
+            },
+            {
+                "heading":"3  -  CalSTRS",
+                "Para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
+            },
+            {
+                "heading":"4  -  Dell, Inc.",
+                "Para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
+            },
+            {
+                "heading":"5  -  Brandywine Realty Trust",
+                "Para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
+            },
+            {
+                "heading":"6  -  Accesso Partners",
+                "Para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
+            },
+            {
+                "heading":"7  -  DRA Advisors",
+                "Para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
+            },
+            {
+                "heading":"8  -  Equity Commonwealth",
+                "Para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
+            },
+            {
+                "heading":"9  -  Cousins Properties",
+                "Para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
+            },
+            {
+                "heading":"10  -  Intercontinental Real Estate",
+                "Para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris "
+            }
+        ]
+    },
+    "Footer":"Copyright © 2018. Austin Office Owners. All Rights Reserved",
+    "WhyAustin":{
+        "mainHead":"Why Austin",
+        "austinDiv":[
+                {
+                    "imgLink":"../Assets/images/icon-1.png",
+                    "heading":"153 “BEST OF LISTS”",
+                    "para":"Through 2016 and 2017, Austin made at least 153 “Best of lists”"
+                },
+                {
+                    "imgLink":"../Assets/images/icon-2.png",
+                    "heading":"35.7% GROWTH RATE",
+                    "para":"Austin had a 35.7% growth rate from 2010 to 2016 - the highest in the nation"
+                },
+                {
+                    "imgLink":"../Assets/images/icon-3.png",
+                    "heading":"1.9% ECONOMIC GROWTH RATE",
+                    "para":"From 2016 to 2017, Austin’s economy grew faster than any city in the U.S"
+                },
+                {
+                    "imgLink":"../Assets/images/icon-4.png",
+                    "heading":"2.8% UNEMPLOYMENT RATE",
+                    "para":"Austin’s unemployment rate is down 1.5% from April 2016"
+                },
+                {
+                    "imgLink":"../Assets/images/icon-5.png",
+                    "heading":"HIGH EDUCATIONAL ATTAINMENT",
+                    "para":"88.6% of Austin’s population are High School Graduates or higher, which outpaces the national average of 86.6%"
+                }
+        ]
+    },
+    "Header":{
+        "navigation":{
+            "Tab1":"Why Austin",
+            "Tab2":"Austin Office Market",
+            "Tab3":"Top Office Owners",
+            "Tab4":"Austin Landscape"
+        },
+        "HeaderHeading":{
+            "line1":"Austin, Texas is the",
+            "line2":"#1 Best Place to Live",
+            "line3":"- U.S. News 2/7/17"
+        },
+        "HeaderBlock":{
+            "Block1":{
+                "line1":"#1",
+                "line2":"City for Job Seekers",
+                "line3":"- NerdWallet 12/19/16"
+            },
+            "Block2":{
+                "line1":"0%",
+                "line2":"State and Local Income Tax"
+            },
+            "Block3":{
+                "line1":"#3",
+                "line2":"City Creating Most Tech Job in 2017",
+                "line3":"- Forbes 3/17/17"
+            },
+            "Block4":{
+                "line1":"#1",
+                "line2":"U.S. City for Millennials",
+                "line3":"- Nestpick 4/19/17"
+            }
+        }
+    },
+    "AustinLandscape" : {
+        "list" : [
+            {
+                "title" : "Most Diverse | ",
+                "descp" : "Central/ West Central",
+                "bgcolor" : ""
+            },
+            {
+                "title" : "Young Families/ Young Professionals | ",
+                "descp" : "Downtown",
+                "bgcolor" : "bg--greenblue"
+            },
+            {
+                "title" : "Working Professionals | ",
+                "descp" : "North",
+                "bgcolor" : "bg--lightred"
+            },
+            {
+                "title" : "Shopping | ",
+                "descp" : "North Central",
+                "bgcolor" : "bg--blueberry"
+            },
+            {
+                "title" : "Outdoor Enthusiasts | ",
+                "descp" : "Northwest",
+                "bgcolor" : "bg--azul"
+            },
+            {
+                "title" : "Students | ",
+                "descp" : "Northeast",
+                "bgcolor" : "bg--yelloworange"
+            },
+            {
+                "title" : "Music Enthusiasts/ Hippies | ",
+                "descp" : "South",
+                "bgcolor" : "bg--barney"
+            },
+            {
+                "title" : "Affordable Homes | ",
+                "descp" : "Southeast",
+                "bgcolor" : "bg--dusk"
+            },
+            {
+                "title" : "Older People | ",
+                "descp" : "Southwest",
+                "bgcolor" : "bg--medpink"
+            },
+            {
+                "title" : "Award Winning Schools | ",
+                "descp" : "Westlake Hills",
+                "bgcolor" : "bg--orangish"
+            },
+            {
+                "title" : "Business Owners | ",
+                "descp" : "East",
+                "bgcolor" : "bg--coral"
+            },
+            {
+                "title" : "New Homebuyers | ",
+                "descp" : "East Central",
+                "bgcolor" : "bg--warmpurple"
+            },
+            {
+                "title" : "Luxury Homes | ",
+                "descp" : "West",
+                "bgcolor" : "bg--purplishgrey"
+            }
+        ]
+    },
+    "ContactUs" : {
+        "Title" : "Contact Us",
+        "Name" : "Name",
+        "Email" : "Email",
+        "PhoneNumber" : "Phone Number",
+        "SelectPropertyOwner" : "Select Property Owner",
+        "Message" : "Message",
+        "SENDIT" : "SEND IT",
+        "NameError1" : "Please enter a name",
+        "NameError2" : "Only characters are allowed without number",
+        "NameError3" : "Only characters are allowed",
+        "EmailError1" : "Please enter a email",
+        "EmailError2" : "That doesn't seem to be a valid email",
+        "PhoneError1" : "That doesn't seem to be a valid phone number",
+        "PhoneError2" : "Please enter a phone number",
+        "PhoneError3" : "That doesn't seem to be a valid phone number",
+        "DropdownError1" : "Please select dropdown",
+        "MessageError1" : "Please enter a message",
+        "MessageError2" : "Invalid message",
+        "SuccessMessage" : "Thank You! We will get in touch with you soon."
+    }
+}

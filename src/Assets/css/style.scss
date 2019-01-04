@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600');
+@import "variables";
+
+html {
+    scroll-behavior: smooth!important;
+}
+
+.bluecont{
+    padding: 4px;
+    &__content{
+        @include width75marauto();
+    }
+    &__desc{
+        @include font(Poppins, 22px, 500);
+        line-height: 1.18;
+        color: $white;
+    }
+    &__rightcontent{
+        margin-top: 80px;
+    }
+}
+
+.bg{
+    &--blue{
+        background:$blue!important;
+    }
+    &--lightblue{
+        background: $darkskyblue!important;
+    }
+    &--salmon{
+        background: $salmon!important;
+    }
+    &--greenblue{
+        background: $greenblue!important;
+    }
+    &--lightred{
+        background: $lightred!important;
+    }
+    &--blueberry{
+        background: $blueberry!important;
+    }
+    &--azul{
+        background: $azul!important;
+    }
+    &--yelloworange{
+        background: $yelloworange!important;
+    }
+    &--barney{
+        background: $barney!important;
+    }
+    &--dusk{
+        background: $dusk!important;
+    }
+    &--medpink{
+        background: $medpink!important;
+    }
+    &--orangish{
+        background: $orangish!important;
+    }
+    &--coral{
+        background: $coral!important;
+    }
+    &--warmpurple{
+        background: $warmpurple!important;
+    }
+    &--purplishgrey{
+        background: $purplishgrey!important;
+    }
+}
+
+.btn{
+    padding: 15px 25px;
+    background: $darkishBlue;
+    @include font(Poppins, 15px, 500);
+    line-height: normal;
+    color: $white;
+    cursor: pointer;
+    border-radius: 0;
+    border: solid 1px $darkishBlue;
+    &--white{
+        background: $white;
+        color: $blacklight;
+        &:hover{
+            background: $darkishBlue;
+            color: $white;
+            border: solid 1px $darkishBlue;
+        }
+    }
+    &:hover{
+        background: $white;
+        color: $blacklight;
+        border: solid 1px $grey;
+    }
+    &-bor{
+        &--grey{
+            border: solid 1px $grey;
+            padding: 15px 35px;
+        }
+    }
+}
+
+
+.austinofc{
+    background-color: $dark2;
+    padding: 60px 0 40px;
+    &__cont{
+        @include width75marauto();
+    }
+    &__office{
+        border: 1px solid $dark3;
+        padding:10px 14px;
+        @include font(Poppins, 15px, 600);
+        line-height: normal;
+        color: $light1;
+        margin: 0 20px 20px 0;
+    }
+    &__list{
+        .row{
+            margin: 0 !important;
+        }
+    }
+}
+
+.mar{
+    &-ltrt{
+        &--auto{
+            margin: 0 auto;
+        }
+    }
+}
+.pad{
+    &-ltrt{
+        &--5{
+            padding: 0 5px;
+        }
+    }
+}
+.pull{
+    &--rt{
+        float: right!important;
+    }
+}
+.dis{
+    &--blk{
+        display: block!important;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .bluecont{
+        &__content{
+            width: 85%;
+        }
+    }
+
+    .austinofc{
+        &__cont{
+            width: 85%;
+        }
+    }
+
+}
+
+
+@media (max-width: 992px) {
+
+    .bluecont{
+        &__rightcontent{
+            margin-top: 35px;
+        }
+        &__desc{
+            font-size: 20px;
+        }
+    }
+
+    .pad{
+        &-lt{
+            &--10{
+                padding-left: 10px!important;
+            }
+            &--0{
+                padding-left: 0px!important;
+            }
+        }
+        &-ltrt{
+            &--0{
+                padding-left: 0!important;
+                padding-right: 0!important; 
+            }
+        }
+    }
+
+    .austinofc{
+        padding: 40px 0 25px;
+        &__office{
+            margin: 0 15px 15px 0;
+            font-size: 13px;
+        }
+    }
+}
+
+
+
+@media (max-width: 855px) {
+
+    .bluecont{
+        &__content{
+            width: 90%;
+        }
+    }
+
+
+    .austinofc{
+        &__cont{
+            width: 90%;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .bluecont{
+        padding-bottom: 0 !important;
+        &__desc{
+            font-size: 16px;
+        }
+        &__content{
+            .col-md-6{
+                .offset-lg-2 {
+                    flex: 0 0 50%;
+                    max-width: 50%;
+                    margin-left: 10%;
+                }
+            }
+        }
+    }
+
+    .pad{
+        &-lt{
+            &--0{
+                padding-left: 5px !important;
+            }
+            &--10{
+                padding-left: 5px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .hide{
+        &--mobile{
+            display: none;
+        }
+    }
+
+    .show{
+        &--mobilegrid{
+            display: grid;
+        }
+        &--mobile{
+            display: block!important;
+        }
+    }
+    .pos{
+        &--banner{
+            margin-top: -4px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .austinofc{
+        &__office{
+            padding-left: 0;
+            padding-right: 0;
+            margin-right:0;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .alert-danger.w-50{
+        width: 100% !important;
+    }
+
+    .btn{
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bluecont{
+        &__rightcontent{
+            padding-bottom: 25px;
+        }
+    }
+
+}
